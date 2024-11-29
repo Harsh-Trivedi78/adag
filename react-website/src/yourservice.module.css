@@ -1,0 +1,55 @@
+/* yourservice.module.css */
+/* @tailwind base; */
+/* @tailwind components; */
+/* @tailwind utilities; */
+
+.container {
+  @apply p-4 h-screen;
+  margin-top: 80px; /* Adjust this value based on your navbar height */
+}
+
+.title {
+  @apply text-4xl font-bold my-8; /* Increased size and made bold */
+}
+
+.create-button {
+  @apply text-sky-800 text-4xl font-bold; /* Added font bold */
+}
+
+.create-text {
+  @apply text-lg ml-2;
+  font-weight: 500; /* Slightly bolder text */
+}
+
+.table {
+  @apply w-full border-separate border-spacing-2;
+}
+
+.th {
+  @apply border border-slate-600 rounded-md text-lg font-bold text-center; /* Increased size and made bold */
+  background-color: #f0f0f0; /* Optional: Add a background color for headers */
+  color: #333; /* Darker text for better visibility */
+  padding: 12px; /* Add padding for spacing */
+}
+
+.td {
+  @apply border border-slate-700 rounded-md text-base; /* Increased text size */
+  padding: 12px; /* Add padding for spacing */
+  text-align: center; /* Center text alignment */
+}
+
+.operations {
+  @apply flex justify-center gap-x-4;
+}
+
+.infoIcon {
+  @apply text-2xl text-emerald-900;
+}
+
+.editIcon {
+  @apply text-2xl text-teal-800;
+}
+
+.deleteIcon {
+  @apply text-2xl text-red-800;
+}

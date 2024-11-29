@@ -1,0 +1,93 @@
+
+/* Services.module.css */
+
+/* Style for individual service cards */
+.serviceCard {
+    @apply bg-white shadow-lg rounded-lg p-6 transform hover:scale-105 transition-transform duration-300;
+  }
+  
+  .serviceCardIcon {
+    @apply text-5xl mb-4 text-indigo-500;
+  }
+  
+  .serviceCardTitle {
+    @apply text-xl font-semibold mb-2 text-gray-800;
+  }
+  
+  .serviceCardDescription {
+    @apply text-gray-600 text-sm;
+  }
+  
+  /* Additional styling for the Services component wrapper */
+  .servicesWrapper {
+    @apply bg-gray-100 py-12;
+  }
+  
+  .servicesTitle {
+    @apply text-3xl font-bold text-center mb-8 text-gray-800;
+  }
+  
+  .servicesGrid {
+    @apply max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 px-6;
+  }
+  .intro {
+    margin-bottom: 20px;
+    text-align: center; /* Center align the intro content */
+  }
+  
+  .introTitle {
+    font-size: 24px; /* Adjust size as needed */
+    color: #333;
+    margin-bottom: 10px; /* Space below the title */
+  }
+  
+  .introText {
+    font-size: 196px; /* Adjust size as needed */
+    color: #666;
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the text block */
+  }
+  .servicesWrapper {
+    padding: 40px 20px; /* Existing padding */
+    max-width: 1200px; /* Set a max width for the content */
+    margin: 80px auto; /* Adjust this based on your navbar height */
+    background: linear-gradient(135deg, #f0f4ff, #d9e7ff); /* Gradient background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  
+  .intro {
+    margin-bottom: 30px; /* Space between intro and services */
+    text-align: center; /* Center align the intro content */
+  }
+  
+  .introTitle {
+    font-size: 5.5rem; /* Larger font size */
+    color: #333; /* Darker color for contrast */
+    margin-bottom: 15px; /* Space below the title */
+    font-weight: bold; /* Bold title */
+    text-transform: uppercase; /* Uppercase for a modern look */
+  }
+  
+  .introText {
+    font-size: 18px; /* Increased font size */
+    color: #555; /* Softer text color */
+    line-height: 1.6; /* Improve readability with line height */
+    max-width: 800px; /* Limit width for readability */
+    margin: 0 auto; /* Center the text block */
+  }
+  
+  .servicesTitle {
+    font-size: 32px; /* Larger title for services */
+    color: #333; /* Consistent color */
+    text-align: center; /* Center align */
+    margin: 30px 0 20px; /* Margin for spacing */
+  }
+  
+  .servicesGrid {
+    display: grid; /* Use grid for layout */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between cards */
+  }
+  

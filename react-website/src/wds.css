@@ -1,0 +1,146 @@
+/* General container styling for the section */
+.web-development-section {
+    padding: 50px 20px;
+    background-color: #f4f4f9;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Card container styling */
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Icon styling */
+  .icon-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .icon {
+    font-size: 2.5rem;
+    color: #007bff;
+  }
+  
+  /* Image styling */
+  .card-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Title and description styling */
+  .card-title {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .card-description {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Responsive styling for mobile devices */
+  @media (max-width: 768px) {
+    .card-container {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  /* General Section Styling */
+.web-development-section {
+    min-height: 100vh;
+    padding: 40px 20px;
+    margin-top: 80px; /* Adjust based on the height of your navbar */
+    background: linear-gradient(135deg, #f0f8ff, #d6e6f2);
+    font-family: 'Arial', sans-serif;
+}
+/* .buy-now-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+} */
+
+/* .buy-now-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #0073e6;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+/* .buy-now-button:hover {
+  background-color: #005bb5;
+} */
+.buy-now-container {
+  padding: 2.5rem;
+  background-color: #f9f9f9;
+  border: 1px solid #29cd26;
+  border-radius: 100px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.buy-now-text {
+  font-size: 1.2rem;
+  color: #333;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.buy-now-button {
+  padding: 0.8rem 1.5rem;
+  font-size: 1.2rem;
+  color: white;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.buy-now-button:hover {
+  background-color: #218838;
+}

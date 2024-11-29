@@ -1,0 +1,82 @@
+/* General Container Styles */
+.container55 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f4f8; /* Light background color */
+  }
+  
+  /* Signup Box Styles */
+  .signup-box {
+    background-color: #060d4a; /* White background for the form */
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Fixed width for the form */
+  }
+  
+  /* Title Styles */
+  .signup-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: #f7f7f7; /* Darker text color */
+  }
+  
+  /* Label Styles */
+  .input-label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #fefdfd; /* Slightly lighter text color */
+    display: block; /* Ensures label appears above input */
+  }
+  
+  /* Input Field Styles */
+  .input-field {
+    width: 100%; /* Full width input */
+    padding: 0.8rem; /* Padding for input */
+    margin-bottom: 1rem; /* Space between inputs */
+    border: 1px solid #f7f4f4; /* Light border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1rem;
+    transition: border-color 0.3s; /* Transition effect for border color */
+  }
+  
+  .input-field:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Button Styles */
+  .signup-button {
+    width: 100%; /* Full width button */
+    padding: 0.8rem;
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    font-size: 1rem;
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Transition effect for background color */
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  /* Footer Styles */
+  .signup-footer {
+    text-align: center;
+    margin-top: 1rem; /* Space above footer */
+  }
+  
+  .link {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* No underline */
+  }
+  
+  .link:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  

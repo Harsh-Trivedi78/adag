@@ -1,0 +1,139 @@
+/* AboutUs.css */
+.about-us {
+    font-family: 'Arial', sans-serif;
+    padding: 40px;
+    background-color: linear-gradient(to right, #4a90e2, #03765d);
+    color: #d80000;
+    line-height: 1.6;
+    
+  }
+  
+  .about-intro {
+    background-color: linear-gradient(to right, #4a90e2, #03765d);
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-title {
+    color: linear-gradient(to right, #4a90e2, #03765d);
+    font-size: 7.5rem;
+    margin-bottom: 20px;
+    color: linear-gradient(to right, #4a90e2, #03765d);
+    font-weight: bold;
+  }
+  
+  .about-description {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    max-width: 700px;
+    color: #555;
+  }
+  
+  .highlight {
+    color: #ff6600;
+    font-weight: bold;
+  }
+  
+  .about-services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  .service {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 22%;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .service:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+  }
+  .service-icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  .ad-platforms {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .ad-platforms-title {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .ad-platforms-description {
+    font-size: 1.1rem;
+    color: #666;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .platform-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .service h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #222;
+  }
+  
+  .service p {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .about-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
+  
+  .cta-button {
+    background-color: #ff6600;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #ff4500;
+  }
+  
+  @media (max-width: 768px) {
+    .about-title {
+      font-size: 2.5rem;
+    }
+  
+    .about-description {
+      font-size: 1.1rem;
+    }
+  
+    .service h2 {
+      font-size: 1.25rem;
+    }
+  
+    .service-icon {
+      font-size: 2rem;
+    }
+  }
+  

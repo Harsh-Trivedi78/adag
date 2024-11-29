@@ -1,0 +1,281 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-section2 {
+    background-color: #f4f4f4; /* Light background for hero section */
+    padding: 60px 20px; /* Padding for spacing */
+    text-align: center; /* Centered text */
+  }
+  
+  .hero-title {
+    font-size: 5.5rem; /* Hero title size */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .hero-subtitle {
+    font-size: 20px; /* Subtitle size */
+    margin-bottom: 30px; /* Space below subtitle */
+  }
+  
+  .services {
+    padding: 40px 20px; /* Padding for services section */
+  }
+  
+  .services-title {
+    font-size: 28px; /* Title for services */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .features {
+    display: flex; /* Flexbox for horizontal alignment */
+    flex-wrap: wrap; /* Wrap items to the next line */
+    justify-content: space-between; /* Space between items */
+  }
+  
+  .feature {
+    flex: 1; /* Allow features to grow equally */
+    margin: 10px; /* Margin between feature items */
+    padding: 20px; /* Padding inside feature cards */
+    border: 1px solid #ccc; /* Border for feature cards */
+    border-radius: 8px; /* Rounded corners */
+    text-align: center; /* Center content */
+  }
+  
+  .icon {
+    font-size: 50px; /* Icon size */
+    margin-bottom: 10px; /* Space below icon */
+  }
+  
+  .feature-title {
+    font-size: 22px; /* Title for feature */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  .feature-text {
+    font-size: 16px; /* Text size for features */
+    color: #666; /* Text color */
+  }
+  
+  .testimonials {
+    background-color: #fafafa; /* Light background for testimonials */
+    padding: 40px 20px; /* Padding for testimonials section */
+  }
+  
+  .testimonials-title {
+    font-size: 28px; /* Title for testimonials */
+    margin-bottom: 20px; /* Space below title */
+  }
+  
+  .testimonial {
+    margin: 10px 0; /* Margin between testimonials */
+    font-style: italic; /* Italicize testimonial text */
+  }
+  
+  .cta-button {
+    background-color: #4d4dff; /* Button color */
+    color: #fff; /* Button text color */
+    padding: 12px 20px; /* Button padding */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    margin: 15px 0; /* Space around the button */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  .cta-button:hover {
+    background-color: #3b3bff; /* Darker shade on hover */
+  }
+  .intro-section {
+    background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .intro-text {
+    font-size: 1.6rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+    color: #555;
+  }
+  
+  /* Core Services Section */
+  .services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  .services-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .feature {
+    flex: 1;
+    max-width: 250px;
+    text-align: center;
+  }
+  
+  .icon {
+    font-size: 3rem;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Cards Section */
+  .cards-section {
+    padding: 80px 0;
+    background-color: #fff;
+  }
+  
+  .cards-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px;
+  }
+  
+  .card-content {
+    flex: 1;
+  }
+  
+  .card-content h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .card-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .card-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-image {
+    flex: 0.7;
+  }
+  
+  .card-image img {
+    max-width: 100%;
+    border-radius: 12px;
+  }
+  
+  /* Carousel Section */
+  .carousel-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+  }
+  
+  .carousel-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto; /* Change to auto for better responsiveness */
+    object-fit: cover; /* This ensures the images cover the area */
+    border-radius: 10px;
+    margin: 0; /* Remove margin to eliminate spacing issues */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+  
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .card-image {
+      margin-bottom: 20px;
+      flex: none;
+    }
+  
+    .features {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 4rem;
+    }
+  
+    .hero-subtitle {
+      font-size: 1.2rem;
+    }
+  
+    .cards {
+      gap: 20px;
+    }
+  
+    .card-content h3 {
+      font-size: 1.5rem;
+    }
+  
+    .card-content p {
+      font-size: 1rem;
+    }
+  }
+  

@@ -1,0 +1,51 @@
+.serviceCard {
+  position: relative; /* Enable positioning context for absolute children */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  background: #fff; /* White background for the card */
+  transition: box-shadow 0.1s ease;
+  text-align: center; /* Center content */
+  margin-bottom: 20px; /* Space between cards */
+}
+
+.serviceCard:hover {
+  box-shadow: 0 8px 30px rgba(95, 159, 207, 0.1); /* More pronounced shadow on hover */
+}
+
+.cardContent {
+  padding: 10px; /* Padding inside the card */
+}
+
+.icon {
+  font-size: 80px; /* Increase icon size */
+  margin-bottom: 10px; /* Space below icon */
+}
+
+.cardTitle {
+  font-size: 28px; /* Increased title size */
+  color: #333; /* Title color */
+  font-weight: bold; /* Bold title */
+}
+
+.cardDescription {
+  font-size: 18px; /* Increased description size */
+  color: #666; /* Description color */
+}
+
+.toggleButton {
+  display: inline-block; /* Ensure it behaves like a button */
+  background-color: #4d4dff; /* Button color */
+  color: #fff; /* Text color */
+  padding: 12px 20px; /* Button padding */
+  border: none; /* No border */
+  border-radius: 40px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor */
+  margin: 15px 0; /* Space around the button */
+  text-decoration: none; /* Remove underline from anchor */
+  transition: background-color 0.3s; /* Smooth transition */
+}
+
+.toggleButton:hover {
+  background-color: #3b3bff; /* Darker shade on hover */
+}

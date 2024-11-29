@@ -1,0 +1,28 @@
+/* EditBook.module.css */
+.container {
+  
+      @apply p-4 flex flex-col border-2 border-sky-400 rounded-xl w-[600px] mx-auto; /* Center the container */
+      margin-top: 100px; /* Adjust this value based on your navbar height */
+    
+  }
+  
+  .title {
+    @apply text-3xl my-4; /* Title styles */
+  }
+  
+  .label {
+    @apply text-xl mr-4 text-gray-500; /* Label styles */
+  }
+  
+  .input {
+    @apply border-2 border-gray-500 px-4 py-2 w-full; /* Input field styles */
+  }
+  
+  .button {
+    @apply p-2 bg-sky-300 m-8; /* Button styles */
+  }
+  
+  .loading {
+    @apply flex justify-center items-center; /* Loading spinner container */
+  }
+  

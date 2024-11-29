@@ -1,0 +1,29 @@
+/* Cookieban.css */
+.cookie-banner {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999;  /* Ensure it's on top of other elements */
+    visibility: visible; /* Ensure it is visible */
+    opacity: 1;  /* Make sure opacity is 100% */
+  }
+  
+  .accept-button {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .accept-button:hover {
+    background-color: #45a049;
+  }
+  
